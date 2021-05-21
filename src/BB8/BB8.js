@@ -87,6 +87,7 @@ export default class BB8 extends Component {
 
   // Away we go.
   render() {
+    // eslint-disable-next-line
     let { speed, accelMod, droidX, mouseX, toTheRight } = this.state
 
     return (
